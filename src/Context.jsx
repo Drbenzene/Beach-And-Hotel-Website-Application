@@ -1,15 +1,12 @@
-import  React from "react";
-
+import  React from "react"
 
 const GlobalContext = React.createContext();
 
 const Provider = (props) => {
 
 
-
-
     const states = {
-        
+
     }
     return (
         <GlobalContext.Provider value={states} >
