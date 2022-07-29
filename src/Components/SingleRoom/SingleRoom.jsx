@@ -73,7 +73,7 @@ function SingleRoom() {
           </div>
 
           <div className="row p-5">
-            <h2>Extras Features</h2>
+            <h2>Extras Feature</h2>
             <ul>
               {room.extras.map((extra) => (
                 <li key={extra}>{extra}</li>
