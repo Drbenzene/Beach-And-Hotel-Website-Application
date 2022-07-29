@@ -19,7 +19,7 @@ function NavBar() {
         >
           <div className="container">
             <a className="navbar-brand" href="/">
-              <h3 className={styles.title}>Beach <span style={{color: "red"}}>Resort</span></h3>
+              <h3 className={styles.title}>Beach <span style={{color: "red"}}>Hub</span></h3>
             </a>
             <button
               className="navbar-toggler"
