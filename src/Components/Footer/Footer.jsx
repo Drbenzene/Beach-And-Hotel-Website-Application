@@ -110,7 +110,7 @@ function Footer() {
         </div>
         <div className="container">
           <div className="copyright">
-            © Copyright
+             Copyright
             <strong>
               <span> Beach Resorts</span>
             </strong>
