@@ -68,7 +68,7 @@ const Provider = (props) => {
   };
 
   const getSingleRoomHandler = (slug) => {
-    console.log("getSingleRoomHandler")
+
     const tempRooms  =  allRooms.rooms
     return tempRooms.find((room) => room.slug === slug)
   };

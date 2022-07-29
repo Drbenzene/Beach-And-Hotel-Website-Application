@@ -41,9 +41,9 @@ function SingleRoom() {
           </div>
 
           <div className="row m-5">
-            {room.images.map((image) => (
-              <div className="col-md-3">
-                <div class="card">
+            {room.images.map((image, i) => (
+              <div key={i} className="col-md-3">
+                <div className="card">
                   <img src={image} alt={image} className={styles.image} />
                 </div>
               </div>

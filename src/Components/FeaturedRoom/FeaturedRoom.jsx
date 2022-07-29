@@ -5,7 +5,6 @@ import {Link} from 'react-router-dom'
 
 function FeaturedRoom() {
   const {featured } = useContext(GlobalContext);
-  console.log(featured, "On FeaturedRoom");
 
   return (
 
@@ -16,7 +15,7 @@ function FeaturedRoom() {
           {featured.map(
             (room) =>
               (
-                <div className="col-md-3" id={styles.colmod}>
+              <div key={room.id} className="col-md-3" id={styles.colmod}>
                   <div className="card" id={styles.cards}>
                     <img src={room.images[0]} className="card-img-top" alt="" />
                     <div className="card-body" id={styles.imgcard}>

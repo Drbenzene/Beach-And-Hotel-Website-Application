@@ -19,7 +19,7 @@ function Footer() {
                 </p>
               </div>
               <div className="col-lg-6">
-                <form action method="post">
+                <form method="post">
                   <input type="email" name="email" />
                   <input type="submit" defaultValue="Subscribe" />
                 </form>
@@ -110,7 +110,7 @@ function Footer() {
         </div>
         <div className="container">
           <div className="copyright">
-             Copyright
+            © Copyright
             <strong>
               <span> Beach Resorts</span>
             </strong>

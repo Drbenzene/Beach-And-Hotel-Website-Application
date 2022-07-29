@@ -26,9 +26,7 @@ function Search() {
     </option>
   ));
 
-  console.log(types, "The Types");
-  console.log(majorType, "The major type");
-
+  
   /* Creating a new array of unique values from the rooms capacity array. */
   let majorCapacity = rooms.map((room) => room.capacity);
   majorCapacity = new Set(majorCapacity);
